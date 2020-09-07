@@ -14,6 +14,12 @@ filetype plugin indent on
 " Remaps
 imap jj <Esc>
 
+" Netrw settings
+let g:netrw_liststyle=3
+let g_netrw_browse_split=4
+let g:netrw_altv=1
+let g:netrw_winsize=25
+
 " Disable ALE LSP for CoC
 let g:ale_disable_lsp = 1
 
