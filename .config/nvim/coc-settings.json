@@ -1,0 +1,18 @@
+{
+    "diagnostic.errorSign": "✖",
+    "diagnostic.warningSign": "⚠",
+    "diagnostic.infoSign": "ℹ",
+    "diagnostic.hintSign": "➤",
+    "diagnostic.enableHighlightLineNumber": true,
+    "diagnostic.displayByAle": true,
+
+    "codeLens.enable": true,
+    "signature.enable": true,
+
+    "python.jediPath": "~/.local/lib/python3.8/site-packages",
+    "python.jediEnabled": false,
+    "python.autoUpdateLanguageServer": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintPath": "~/.local/bin/pylint",
+    "python.linting.enabled": true
+}
