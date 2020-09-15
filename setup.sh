@@ -28,7 +28,7 @@ if [ -f /usr/local/bin/node ]; then
     echo "Node already installed."
 else
     echo "Installing node for vim CoC..."
-    curl -sL install-node.now.sh/lts | bash
+    curl -sL install-node.now.sh/lts | sudo bash
 fi
 
 # Install Vim Plug
@@ -58,7 +58,7 @@ cp ~/Development/dotfiles/.config/nvim/init.vim $nvim_config_dir || :
 fish_config_dir=~/.config/fish/
 echo "Moving fish.config..."
 mkdir -p $fish_config_dir
-cp ~/Development/dotfiles/.config/fish/fish.config $fish_config_dir || :
+cp ~/Development/dotfiles/.config/fish/config.fish $fish_config_dir || :
 
 echo "Moving .bashrc..."
 cp ~/Development/dotfiles/.bashrc ~/.bashrc || :
